@@ -321,6 +321,8 @@ func GetSessionID() string {
 	return fmt.Sprintf("%x-%x-%x-%x-%x-%x", unix32bits, buff[0:2], buff[2:4], buff[4:6], buff[6:8], buff[8:])
 }
 
+//Copy all files from source to the destination directory
+//All files from source are copied to destination
 func CopyDir(source string, dest string) (err error) {
 	// get properties of source dir
 	sourceinfo, err := os.Stat(source)
