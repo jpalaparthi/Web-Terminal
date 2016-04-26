@@ -22,3 +22,13 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+#All local files to ignore.
+.gitignoreold
+SSHCLient/
+ServiceCharts/
+Web-Terminal/
+demo1/
+demo2/
+demo3/
+demo4/
