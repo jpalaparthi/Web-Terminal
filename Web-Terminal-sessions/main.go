@@ -363,6 +363,8 @@ func CopyDir(source string, dest string) (err error) {
 	return
 }
 
+//Copies file from source to the destination
+//Once copies the file would be deleted from the source
 func CopyFile(source string, dest string) (err error) {
 	sourcefile, err := os.Open(source)
 	if err != nil {
