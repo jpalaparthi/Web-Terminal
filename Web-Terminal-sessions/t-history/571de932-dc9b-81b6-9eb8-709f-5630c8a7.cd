@@ -1,0 +1,35 @@
+bash-3.2$ ls
+Web-Terminal-sessions	jiten3			main.go
+abb			jiten4			static
+doc.go			jiten5			t-files
+jiten1			jiten6			t-history
+jiten2			jiten7			templates
+bash-3.2$ ls
+Web-Terminal-sessions	jiten3			main.go
+abb			jiten4			static
+doc.go			jiten5			t-files
+jiten1			jiten6			t-history
+jiten2			jiten7			templates
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$   ls
+Web-Terminal-sessions	jiten3			main.go
+abb			jiten4			static
+doc.go			jiten5			t-files
+jiten1			jiten6			t-history
+jiten2			jiten7			templates
+bash-3.2$   cd /
+bash-3.2$   ls
+Applications			etc
+Developer			home
+IPMessenger0B3.dmg		installer.failurerequests
+Library				libpeerconnection.log
+Network				lost+found
+System				net
+User Guides And Information	p%99%9D??
+Users				private
+Volumes				sbin
+bin				tmp
+cores				usr
+dev				var
+bash-3.2$ 

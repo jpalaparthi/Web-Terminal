@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+	<link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/static/css/starter-template.css" rel="stylesheet" type="text/css">
+	 
+	{{ template "head" . }}
+    </head>
+   <body>
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Cloud Utilization</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/home/">Home</a></li>
+			<li class=""><a href="/terminal/">Terminal</a></li>
+				
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+    <div class="starter-template">
+    <div class="container">
+      {{ template "content" . }}
+    </div>
+      </div>
+    </div><!-- /.container -->
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
+    <script src="/static/js/bootstrap.min.js"></script> 
+	
+	</body>
+</html>

@@ -1,0 +1,23 @@
+{{ define "head" }}
+ <!-- write all your header code over here -->
+{{ end }}
+{{ define "content" }}
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+  </div>
+  <p>home page</p>
+ 
+ <form id="frmterminal" action="/terminal/" method="post">
+ <div class="container">
+ <textarea name="txtcommand"  id="txtcommand" rows="15" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">{{ .Command}} </textarea>
+ <!--<Button>Execute</Button>-->
+ <div>
+ </form>
+ <script type="text/javascript">
+document.getElementById('txtcommand').onkeypress = function (e) {
+    if (e.keyCode === 13 && !e.shiftKey) {
+       document.forms[this.form.id].submit();
+    }        
+};
+</script>
+  {{ end }}
